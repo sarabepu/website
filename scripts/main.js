@@ -1,5 +1,6 @@
 (function ($) {
     
+    
     /*--/ Navbar Menu Reduce /--*/
     $('body').scrollspy({ target: '#mainNav' })
 	$(window).on('scroll', function () {
