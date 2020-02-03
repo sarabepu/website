@@ -95,10 +95,6 @@
     text-align: right;
     color: white;
 }
- #right-adventure{
-     background-color: black;
-     padding: 10% 3% 0 10%;
- }
 
  .sect-mt4 {
     margin-top: 0;
@@ -110,4 +106,18 @@
 
 #contact-back{
     background-image: url(../images/dog.jpg)
+}
+iframe {
+    width: 1px;
+    min-width: 100%;
+  }
+
+  
+.progress {
+    animation: progressBar 3s ease-in-out;
+}
+
+@keyframes progressBar {
+  0% { width: 0; }
+  100% { width: 100%; }
 }
