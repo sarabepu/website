@@ -1,0 +1,98 @@
+#about{
+    background-color: white;
+}
+
+#personal
+{
+    background-color: black;
+
+}
+
+.box-shadow-full{
+    box-shadow:none;
+}
+
+.navbar-b.navbar-reduce {
+    background-color: black;
+}
+.navbar-b.navbar-reduce .nav-link {
+    color: white;
+}
+.navbar-b.navbar-reduce .nav-brand {
+    color: white;
+}
+
+.navbar-b.navbar-trans .nav-link {
+    color: white;
+}
+
+.navbar-b.navbar-reduce .nav-link:hover{
+    color: #c7e6ff;
+}
+.navbar-b.navbar-trans .nav-brand {
+    color: white;
+}
+.navbar-b.navbar-reduce .navbar-brand{
+    color: #3299ee;
+}
+
+.navbar-b.navbar-reduce .show > .nav-link, .navbar-b.navbar-reduce .active > .nav-link, .navbar-b.navbar-reduce .nav-link.show, .navbar-b.navbar-reduce .nav-link.active{
+    color: #3299ee ;
+}
+.navbar-b.navbar-reduce .nav-link.active:before{
+    color: #3299ee ;
+}
+
+.skill-mf .progress {
+    background-color: #c7e6ff;
+}
+.title-s{
+    text-align: center;
+}
+
+#experience{
+    background-color: #c7e6ff;
+}
+
+.service-box{
+    
+    box-shadow: none;
+    
+}
+
+.h2-white 
+{
+    color: white;
+    margin-top: 7rem;
+    font-size: 50px;
+    font-family: cursive;
+
+}
+ 
+.p-white
+{
+    color: white;
+}
+
+.adventures
+{
+    padding: 10% 0 0 0;
+    
+}
+.right-text
+{
+    text-align: right;
+    color: white;
+}
+ #right-adventure{
+     background-color: black;
+     padding: 10% 3% 0 10%;
+ }
+
+ .sect-mt4 {
+    margin-top: 0;
+}
+
+.sect-pt4 {
+    padding-top: 0;
+}
