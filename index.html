@@ -2,13 +2,19 @@
 <html lang="en">
 
 <head>
+    <!-- Valentina  Chacon: comments are missing for the metatags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is my personal website">
+    
+    <!-- Valentina  Chacon: comments are missing for the author and title metatags -->
     <meta name="title" content="Sara Bejarano Website">
     <meta name="author" content="Sara María Bejarano Puello">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <title>Sara Bejarano</title>
+    
+    <!-- Valentina  Chacon: comments are missing for the custom links -->
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -20,6 +26,7 @@
 </head>
 
 <body data-spy="scroll" data-target="#mainNav" data-offset="0">
+    
     <!--/ Nav Bar/-->
     <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
         <div class="container">
@@ -50,6 +57,7 @@
     </nav>
     <!--/ Big Intro/-->
 
+    <!-- Valentina Chacon: there should be an alt to the added image -->
     <div id="home" class="intro route bg-image" style="background-image: url(./images/intro1.jpg)">
         <div class="overlay-itro"></div>
         <div class="intro-content display-table">
@@ -84,14 +92,26 @@
                                     </div>
                                     <div class="col-sm-6 col-md-7">
                                         <div class="about-info">
+                                            <!-- Valentina Chacon: an alternative to using span to differenciate the bold letters, you could've used <b> tag-->
                                             <p><span class="title-s">Name: </span> <span>Sara María Bejarano</span></p>
                                             <p><span class="title-s">Profile: </span> <span>Computer Systems Engineering
                                                     student</span>
                                             </p>
+                                            <!-- Valentina Chacon: it would be nice to have those links actually take you to the page you're refering to. You could use <a href="mailto:sm.bejarano44@uniandes.edu.co"> -->
+                                            <!--
+                                            <p><span class="title-s">Email: </span>
+                                                <span><a href="mailto:sm.bejarano44@uniandes.edu.co"></a></span></p>
+                                            <p><span class="title-s">Github: </span>
+                                                <span><a href="https://github.com/sarabepu"></a></span></p>
+                                            <p><span class="title-s">Linkedin: </span>
+                                                <span><a href="https://github.com/sarabepu"></a></p> -->
+                                            
+                                            
                                             <p><span class="title-s">Email: </span>
                                                 <span>sm.bejarano44@uniandes.edu.co</span></p>
                                             <p><span class="title-s">Github: </span>
                                                 <span>https://github.com/sarabepu</span></p>
+                                            <!-- Valentina Chacon: there's an incorrect link to linkedin-->
                                             <p><span class="title-s">Linkedin: </span>
                                                 <span>https://github.com/sarabepu</span></p>
                                         </div>
@@ -99,6 +119,7 @@
                                 </div>
                                 <div class="skill-mf">
                                     <hr>
+                                    <!-- Valentina Chacon: it would be nice to include comments in all your sections to make the code more readable-->
                                     <p class="title-s">Skills</p>
                                     <span>Java</span> <span class="pull-right">85%</span>
                                     <div class="progress">
@@ -132,6 +153,8 @@
                                     </div>
                                 </div>
                                 <hr>
+                                
+                                <!-- Valentina Chacon: it would be nice to include comments in all your sections to make the code more readable-->
                                 <div class="technologies">
                                     <p class="title-s">Technologies</p>
                                     <div class="row">
@@ -256,16 +279,22 @@
     <section id="personal" class="about-mf sect-pt4 route">
         <div class="container adventures">
             <div class="row ">
+                 <!-- Valentina Chacon: text is not aligned with the video displayed, you could include an id to the div and in the styles file fix pading -->
+                <!--<div id="centered-content" class="col-md-7"> -->
                 <div class="col-md-7">
                     <h2 class="h2-white headline-av">The start of my adventure in Ithaca</h2>
                     <br />
                     <p class="p-white">
                         On May of 2019 I got the opportunity to travel to Ithaca, New York. My University sponsored me
                         to go to Cornell University and work as a research intern for summer.
-
                     </p>
                 </div>
+                
                 <div class="col-md-5">
+                    <!-- Valentina Chacon: include a frameborder in the tag attributes so that the title and picture appear inside the video frame -->
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Qsm2R4c7IXU" 
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe> -->
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Qsm2R4c7IXU" 
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
@@ -334,6 +363,7 @@
                                             <div class="row">
                                                 <div class="col-md-12 mb-3">
                                                     <div class="form-group">
+                                                        <!-- Valentina Chacon: it is more user friendly to refer to chars as characters -->
                                                         <input required type="text" name="name" class="form-control"
                                                             id="name" placeholder="Your Name" data-rule="minlen:4"
                                                             data-msg="Please enter at least 4 chars" />
@@ -415,7 +445,7 @@
 
     </section>
 
-
+    <!-- Valentina Chacon: missing comments of the scripts included -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
