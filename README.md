@@ -1,5 +1,5 @@
 # Sara Bejarano website
-
+![WebSite image. Blue colors and a girl smiling](https://i.imgur.com/mNIXqRy.png)
 Hello, I'm Sara Bejarano and this is the website I developed for the Web Development class. In this page you can know some proffesional and personal facts about me.
 
 # Objectives and technologies
