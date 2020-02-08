@@ -2,20 +2,20 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--titueo, author and description metadata -->
     <meta name="description" content="This is my personal website">
-    
+
     <!-- Valentina  Chacon: comments are missing for the author and title metatags -->
-    
+
     <meta name="title" content="Sara Bejarano Website">
     <meta name="author" content="Sara María Bejarano Puello">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <title>Sara Bejarano</title>
-    
+
     <!-- Valentina  Chacon: comments are missing for the custom links -->
     <!-- Imported Boootstrap, CSS from a template, personalized CSS, Fontawesome and a Font-->
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
@@ -29,7 +29,7 @@
 </head>
 
 <body data-spy="scroll" data-target="#mainNav" data-offset="0">
-    
+
     <!--/ Nav Bar/-->
     <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
         <div class="container">
@@ -60,7 +60,7 @@
     </nav>
     <!--/ Big Intro/-->
 
-    
+
     <div id="home" class="intro route bg-image" style="background-image: url(./images/intro1.jpg)">
         <div class="overlay-itro"></div>
         <div class="intro-content display-table">
@@ -90,33 +90,43 @@
                                     <div class="col-sm-6 col-md-5">
 
                                         <div class="about-img">
-                                            <img src="images/slider2.jpg" class="img-fluid rounded b-shadow-a" alt="Photograph of a girl with a red shirt smiling">
+                                            <img src="images/slider2.jpg" class="img-fluid rounded b-shadow-a"
+                                                alt="Photograph of a girl with a red shirt smiling">
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-md-7">
                                         <div class="about-info">
                                             <!-- Valentina Chacon: an alternative to using span to differenciate the bold letters, you could've used <b> tag-->
-                                            <p><span class="title-s">Name: </span> <span>Sara María Bejarano</span></p>
-                                            <p><span class="title-s">Profile: </span> <span>Computer Systems Engineering
+                                            <p><span class="title-s">Name: </span> <span>Sara María Bejarano
+                                                    Puello</span></p>
+                                            <p><span class="title-s">Profile: </span> <span>Computer Science
                                                     student</span>
                                             </p>
                                             <!-- Valentina Chacon: it would be nice to have those links actually take you to the page you're refering to. You could use <a href="mailto:sm.bejarano44@uniandes.edu.co"> -->
-                                            
+
                                             <p><span class="title-s">Email: </span>
-                                                <span><a href="mailto:sm.bejarano44@uniandes.edu.co"></a></span></p>
+                                                <br>
+                                                <span><a class="links"
+                                                        href="mailto:sm.bejarano44@uniandes.edu.co">sm.bejarano44@uniandes.edu.co</a></span>
+                                            </p>
                                             <p><span class="title-s">Github: </span>
-                                                <span><a href="https://github.com/sarabepu"></a></span></p>
+                                                <br>
+                                                <span><a class="links"
+                                                        href="https://github.com/sarabepu">/sarabepu/</a></span></p>
                                             <p><span class="title-s">Linkedin: </span>
-                                                <span><a href="https://www.linkedin.com/in/sarabejarano/"></a></p> 
-                                     
+                                                <br>
+                                                <span><a class="links"
+                                                        href="https://www.linkedin.com/in/sarabejarano/">/sarabejarano/</a>
+                                            </p>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div class="skill-mf">
-                                    <hr>
                                     <!-- Valentina Chacon: it would be nice to include comments in all your sections to make the code more readable-->
                                     <!-- Skills Section of CV-->
-                                    <p class="title-s">Skills</p>
+                                    <p class="lead">
+                                        <strong>Skills</strong> </p>
                                     <span>Java</span> <span class="pull-right">85%</span>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-striped progress-bar-animated"
@@ -147,13 +157,51 @@
                                             role="progressbar" style="width: 50%" aria-valuenow="90" aria-valuemin="0"
                                             aria-valuemax="100"></div>
                                     </div>
+                                    <span>R</span> <span class="pull-right">40%</span>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            role="progressbar" style="width: 40%" aria-valuenow="90" aria-valuemin="0"
+                                            aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-6" id="experience">
+                                <div class="about-me pt-4 pt-md-0">
+                                    <div class="title-box-2">
+                                        <h5 class="title-left">
+                                            Experience
+                                        </h5>
+                                    </div>
+
+                                    <p class="lead">
+                                        <strong>Profesional: </strong>
+
+                                    </p>
+                                    <ul>
+                                        <li><strong>Cornell University| Ithaca, NY, USA</strong>
+                                            <br />
+                                            Research Intern (June 2019- August 2019)</li>
+                                        <li><strong>Los Andes University| Bogotá, Colombia</strong>
+                                            <br />
+                                            Research Assistant (February 2019 - May 2019)</li>
+                                        <li> <strong>Los Andes University| Bogotá, Colombia</strong>
+                                            <br />
+                                            Teaching Assistant (February 2017 - November 2018)</li>
+                                    </ul>
+                                    <p>
+                                        Do you want to know more? Check my full CV <a class="links"
+                                            href="./cv.pdf">here</a>
+                                    </p>
+
+
+
                                 </div>
                                 <hr>
-                                
-                                <!-- Valentina Chacon: it would be nice to include comments in all your sections to make the code more readable-->
                                 <!-- Technologies Section of CV-->
                                 <div class="technologies">
-                                    <p class="title-s">Technologies</p>
+                                    <p class="lead"><strong>Technologies </strong></p>
                                     <div class="row">
                                         <div class="col-md">
                                             <div class="service-box">
@@ -190,81 +238,45 @@
                                         </div>
                                     </div>
 
-                                </div>
-                            </div>
-                            <div class="col-md-6" id="experience">
-                                <div class="about-me pt-4 pt-md-0">
-                                    <div class="title-box-2">
-                                        <h5 class="title-left">
-                                            Experience
-                                        </h5>
+                                    <div class="row">
+                                        <div class="col-md">
+                                            <div class="service-box">
+                                                <div class="service-ico">
+                                                    <span class="ico-circle"><i class="fab fa-linux"></i></span>
+                                                </div>
+                                                <div class="service-content">
+                                                    <h2 class="title-s">Linux </h2>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="service-box">
+                                                <div class="service-ico">
+                                                    <span class="ico-circle"><i class="fab fa-angular"></i></span>
+                                                </div>
+                                                <div class="service-content">
+                                                    <h2 class="title-s">Angular</h2>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="service-box">
+                                                <div class="service-ico">
+                                                    <span class="ico-circle"><i class="fa fa-globe"></i></span>
+                                                </div>
+                                                <div class="service-content">
+                                                    <h2 class="title-s">Jupyter</h2>
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <p class="lead">
-                                        <strong>Cornell University| Ithaca, NY, USA</strong>
-                                        <br />
-                                        Research Intern (June 2019- August 2019)
-                                    </p>
-                                        <ul>
-                                            <li>
-                                                Worked in the Blossom project maintaining and updating the
-                                                code from Python 2.7 to Python 3.6. This project consists in a
-                                                Handcrafted Soft Social Robot. The robots perform gestures
-                                                that the users create through the webapp and the mobile app,
-                                                both made in React.
-                                            </li>
-                                            <li>
-                                                Worked in the ShadowSense project developing a CNN for
-                                                shadow gestures recognition using Pytorch pre-trained
-                                                models (transfer learning). Shadowsense is a project that looks
-                                                for new ways of interactions between humans and robots
-                                                through shadow image recognition.
-                                            </li>
 
-                                            <li>
-                                                Supported in the Shadowsense paper (co-author) by adding
-                                                technical aspects of the shadow gestures recognition.
-                                            </li>
-                                        </ul>
-
-                                    
-                                    <br />
-                                    <p class="lead">
-                                        <strong>Los Andes University| Bogotá, Colombia</strong>
-                                        <br />
-                                        Research Assistant (February 2019 - May 2019)
-                                   </p>
-                                        <ul>
-                                            <li>
-                                                Implemented transmition tests using a client-server model. The
-                                                server was implemented in Python 3 and the clients in Java . The
-                                                tests were made using the BitTorrent protocol with ttorrent
-                                                library in Java. This was used to optimize the way of sending big
-                                                files for UnaCloud, which is an opportunistic cloud computing IaaS.
-                                            </li>
-                                        </ul>
-                                    <br />
-                                    <p class="lead">
-                                        <strong>Los Andes University| Bogotá, Colombia</strong>
-                                        <br />
-                                        Research Assistant (February 2017 - November 2018)
-                                        Helped with the grading and teaching of the following classes:
-                                        </p>
-                                        <ul>
-                                            <li>
-                                                Electronical Engineering Introduction
-                                            </li>
-                                            <li>
-                                                Introduction to Networking
-                                            </li>
-                                            <li>
-                                                Algorithmic and Object Oriented Programming
-                                            </li>
-                                            <li>
-                                                Structural Math and Logic
-                                            </li>
-                                        </ul>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -274,69 +286,251 @@
 
     <!--/ Adventures/-->
     <section id="personal" class="about-mf sect-pt4 route">
-        <div class="container adventures">
-            <div class="row ">
-                 <!-- Valentina Chacon: text is not aligned with the video displayed, you could include an id to the div and in the styles file fix pading -->
-                <!--<div id="centered-content" class="col-md-7"> -->
-                <div class="col-md-7">
-                    <h2 class="h2-white headline-av">The start of my adventure in Ithaca</h2>
-                    <br />
-                    <p class="p-white">
-                        On May of 2019 I got the opportunity to travel to Ithaca, New York. My University sponsored me
-                        to go to Cornell University and work as a research intern for summer.
-                    </p>
-                </div>
-                
-                <div class="col-md-5">
-                    <!-- Valentina Chacon: include a frameborder in the tag attributes so that the title and picture appear inside the video frame -->
-                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Qsm2R4c7IXU" 
-                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe> -->
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Qsm2R4c7IXU" 
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
 
-        <div class="container adventures">
+        <h1 class="personal-title mb-4">Personal facts about me</h1>
+        <div id="accordion" class="container adventures">
 
-            <div class="row">
-                <div class="col-md-5">
-                    <iframe width="540" height="315" src="https://www.youtube.com/embed/MIL-n85pm2Q" 
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+            <p class="lead p-white">
+                I'm Sara. A Colombian girl that loves sicence, music, dance and coding. Here are some curious
+                experiences I have had in my life:</p>
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    
+                    <h5 class="mb-0">
+                        
+                        <h5 class="title-adventure" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            I didn't wanted to go to the school anymore
+                    </h5>
+                    </h5>
                 </div>
-                <div class="col-md-7">
-                    <h2 class="h2-white right-head headline-av"> Swag at Hip-Hop International Contest </h2>
-                    <div class="container">
-                        <p class="p-white right-text">In 2015 I had the opportunity to participate in the Mega-Crew
-                            division of HipHop Intenational contest. </p>
+
+                <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>
+                            When I was
+                            14 years old, I told my parents that I didn't wanted to go to the school anymore. I felt
+                            like I
+                            was wasting my time and that there was so many things I wanted to learn.
+                            <br>
+                            So, I ended my high-school online
+                            while taking classes of piano, hip-hop, jazz dance, korean and german ( languages that I
+                            will totally forget later hah).
+                        </p>
+
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container adventures">
-            <div class="row ">
-                <div class="col-md-7">
-                    <h2 class="h2-white headline-av">A little Sara playing a big piano</h2>
-                    <br />
-                    <p class="p-white">
-                        I studied classic piano since I was 12 years old. This video is 4 years later after a LOT of
-                        practice.
-                    </p>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <h5 class="title-adventure" data-toggle="collapse" data-target="#collapseTwo"
+                            aria-expanded="true" aria-controls="collapseTwo">
+                            How I learned not to fear people
+                        </h5>
+                    </h5>
                 </div>
-                <div class="col-md-5">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cSDJDu_DjYI" 
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+
+                <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        I guess this must have been around the time of when I was 12 years old.
+                        I just started learning music and piano here in Los Andes, but that was almost a miracle because
+                        my audition didn’t go well.
+                        The audition was directed by the prime master Maria Barbara (an old woman with about 80 years)
+                        and I had never played a real acoustic piano before.
+                        <br>
+                        <br>
+                        So I played a song I learnt on Youtube in the worst possible way a song can be played in a
+                        Steinway piano.
+
+                        This scary
+                        old woman said I sat like I was in a bus. Then, she said I was too old to start learning piano,
+                        because kids usually start learning at 6.
+                        But, finally she said “ok, you can start learning. But always remember you can switch to an
+                        easier instrument”.
+                        Off course, after this audition every time I saw Maria Barbara I got paralyzed remembering all
+                        the things she said to me that day.
+                        <br>
+                        <br>
+                        But one day, it was the final exam day and my father came to cheer me up. When it was my turn,
+                        my father waited outside,
+                        I entered the room and SHE WAS THERE. When the exam ended,
+                        I went out the room red like a tomato and shaking. My father asked me how did it go and I told
+                        him I got paralyzed because Maria Barbara
+                        was there. He said that it was ok and hugged me. We stayed there for half an hour talking and
+                        Maria Barbara went out for a snack.
+                        When my father saw her, he reached her and said “Hey I want to talk with you”.
+                        I was like “nooooo, what are you doing”. But wait a minute. It gets better. He TOLD HER THAT I
+                        WAS AFRAID OF HER.
+                        She just laughed and said "BOOH!". Yeah sure, very funny -_- .
+                        <br>
+                        <br>
+                        Since that day, I became very close to Maria Barbara and started learning a lot from her.
+                        Four years later, I started wining piano contests and she told me that I PLAYED IN A REALLY
+                        PROFFESIONAL WAY.
+                        I realized how my fear was preventing me from learning. She was right in everything she said in
+                        my audition, but it was only when I left my fear, that I started to improve.
+                        <br>
+                        <br>
+                        Thank you Maria Barbara, RIP.
+                    </div>
                 </div>
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <h5 class="title-adventure" data-toggle="collapse" data-target="#collapseThree"
+                            aria-expanded="true" aria-controls="collapseThree">
+                            My first time living alone
+                        </h5>
+                    </h5>
+                </div>
+
+                <div id="collapseThree" class="collapse " aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="row ">
+                            <div class="col-md-7">
+
+                            </div>
+
+                            <div class="col-md-5">
+                                <!-- Valentina Chacon: include a frameborder in the tag attributes so that the title and picture appear inside the video frame -->
+                                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Qsm2R4c7IXU" 
+                               frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                               allowfullscreen></iframe> -->
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Qsm2R4c7IXU"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                        <h5 class="title-adventure" data-toggle="collapse" data-target="#collapseFour"
+                            aria-expanded="true" aria-controls="collapseFour">
+                            I fell in love with my best friend
+                        </h5>
+                    </h5>
+                </div>
+
+                <div id="collapseFour" class="collapse " aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                        of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                        <h5 class="title-adventure" data-toggle="collapse" data-target="#collapseFive"
+                            aria-expanded="true" aria-controls="collapseFive">
+                            My first time travelling completely alone
+                        </h5>
+                    </h5>
+                </div>
+
+                <div id="collapseFive" class="collapse " aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                        I went to niagara falls
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                        <h5 class="title-adventure" data-toggle="collapse" data-target="#collapseSix"
+                            aria-expanded="true" aria-controls="collapseSix">
+                            I danced in the Hip-Hop International contest at San Diego
+                        </h5>
+                    </h5>
+                </div>
+
+                <div id="collapseSix" class="collapse " aria-labelledby="headingSix" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="row ">
+                            <div class="col-md-7">
+                                <br />
+                                <p class="p-white">
+                                    In 2015 I had the opportunity to participate in the Mega-Crew
+                                    division of HipHop Intenational contest.
+                                </p>
+                            </div>
+                            <div class="col-md-5">
+                                <iframe width="540" height="315" src="https://www.youtube.com/embed/MIL-n85pm2Q"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingSeven">
+                        <h5 class="mb-0">
+                            <h5 class="title-adventure" data-toggle="collapse" data-target="#collapseSeven"
+                                aria-expanded="true" aria-controls="collapseSeven">
+                                I love playing piano
+                            </h5>
+                        </h5>
+                    </div>
+
+                    <div id="collapseSeven" class="collapse " aria-labelledby="headingSeven" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row ">
+                                <div class="col-md-7">
+                                    <h2 class="h2-white headline-av">A little Sara playing a big piano</h2>
+                                    <br />
+                                    <p class="p-white">
+                                        I studied classic piano since I was 12 years old. This video is 4 years later
+                                        after a LOT of
+                                        practice.
+                                    </p>
+                                </div>
+                                <div class="col-md-5">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cSDJDu_DjYI"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingEight">
+                        <h5 class="mb-0">
+                            <h5 class="title-adventure" data-toggle="collapse" data-target="#collapseEight"
+                                aria-expanded="true" aria-controls="collapseEight">
+                                Places I have been
+                            </h5>
+                        </h5>
+                    </div>
+    
+                    <div id="collapseEight" class="collapse " aria-labelledby="headingEight" data-parent="#accordion">
+                        <div class="card-body">
+                            I went to niagara falls
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
+
+
+
 
     </section>
     <!--/ Contact Form/-->
