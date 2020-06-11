@@ -2,7 +2,7 @@
     background-color: white;
 }
 
-#personal
+#contact
 {
     background-color: black;
 
@@ -71,11 +71,13 @@
 }
 .personal-title{
    
-    color: #3299ee;
+    color: #fafafa;
     font-weight: 600;
     font-size: 4.5rem;
     text-align: center;
     padding-top: 5%;
+    
+    position: relative;
 }
  
 .p-white
@@ -86,6 +88,7 @@
 {
     padding-top: 2%;
     padding-bottom: 2%;
+    position: relative;
 }
 .adventures
 {
@@ -129,8 +132,9 @@
     padding-top: 0;
 }
 
-#contact{
-    background-image: url(../images/dog.jpg)
+#personal{
+    background-image: url(../images/dog.jpg);
+    opacity:0.9
 }
 iframe {
     width: 1px;
